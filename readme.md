@@ -24,14 +24,16 @@ This extension adds a **Download Document** button, you can download documents b
 
 ![Load unpacked + Developer mode](assets/04-load-unpacked.png)
 
-## Use
+## After its downloaded; How to use
  Look for the green **Download Document** button on the page (top-right) and press it instead of the StudyDrive download button.
 
 ![Button location](assets/05-download-button-location.png)
 
-## Update the extension (when this repo changes)
+## Update the extension if this repo changes
 
-- If you pulled changes into the same folder, go to `chrome://extensions` and click **Reload** on the extension card.
+- After some time, when Study Drive fixes their paywall, we need to refix the extention, so if you find the button doesnt work anymore, we will change the extention code, so you need to;
+
+- If you pulled changes into the same folder, go to `chrome://extensions` and click **Reload** on the extension card to reload the code we changed.
 
 ## Troubleshooting
 
