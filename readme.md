@@ -2,7 +2,7 @@
 
 This extension adds a **Download Document** button, you can download documents bypassing the StudyDrive paywall.
 
-## Install (from GitHub)
+## How to Install (from GitHub)
 
 - **Step 1**: On this GitHub repo page, click **Code**
 
@@ -25,30 +25,21 @@ This extension adds a **Download Document** button, you can download documents b
 ![Load unpacked + Developer mode](assets/04-load-unpacked.png)
 
 ## Use
-
-- **Step 1**: Open a StudyDrive document page like:
-  - `https://www.studydrive.net/<language>/doc/...`
-- **Step 2**: Look for the green **Download Document** button on the page (top-right)
+ Look for the green **Download Document** button on the page (top-right) and press it instead of the StudyDrive download button.
 
 ![Button location](assets/05-download-button-location.png)
 
-- **Step 3**: Click it — the download should start automatically
-
 ## Update the extension (when this repo changes)
 
-- Re-download the ZIP from GitHub and extract it (replace your old folder), **or**
 - If you pulled changes into the same folder, go to `chrome://extensions` and click **Reload** on the extension card.
 
 ## Troubleshooting
 
 - **Button not showing**
-  - Make sure you’re on a URL that contains `/doc/`
-  - Go to `chrome://extensions` → **Reload** the extension → refresh the StudyDrive tab (try **Ctrl+F5**)
+  - Go to `chrome://extensions` → **Reload** the extension
 
 - **It says “downloading” but nothing happens**
-  - Try Chrome Downloads (`Ctrl+J`) to see if it started/failed
-  - Reload the extension and try again
+  - Check Chrome Downloads (`Ctrl+J`) to see if it started/failed
 
 ## Notes
-
 - **Browser support**: tested on **Google Chrome**
