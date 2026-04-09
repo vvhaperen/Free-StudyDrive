@@ -31,9 +31,9 @@ This extension adds a **Download Document** button, you can download documents b
 
 ## Update the extension if this repo changes
 
-- After some time, when Study Drive fixes their paywall, we need to refix the extention, so if you find the button doesnt work anymore, we will change the extention code, so you need to;
-
-- If you pulled changes into the same folder, go to `chrome://extensions` and click **Reload** on the extension card to reload the code we changed.
+- After some time, when Study Drive fixes their paywall, we need to change the code.
+- What you have to do (as a user), go to `chrome://extensions` and click **Reload**
+- You will find that the button works again after the reload
 
 ## Troubleshooting
 
