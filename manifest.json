@@ -14,7 +14,6 @@
     "downloads"
   ],
   "host_permissions": [
-    "https://www.studydrive.net/*",
     "https://*/*"
   ],
   "background": {

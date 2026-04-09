@@ -38,7 +38,6 @@
   function createButton() {
     const button = document.createElement("button");
     button.id = BUTTON_ID;
-    button.className = "dnbtn";
     button.type = "button";
     button.setAttribute("aria-label", "Download StudyDrive document");
 
