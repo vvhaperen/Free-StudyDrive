@@ -5,11 +5,23 @@ This extension adds a **Download Document** button, so you can download document
 ## Install (from GitHub)
 
 - **Step 1**: On this GitHub repo page, click **Code → Download ZIP**
+
+![Code → Download ZIP](assets/01-github-code-download-zip.png)
+
 - **Step 2**: Extract the ZIP file (right-click → **Extract All…**)
+
+![Extract All…](assets/03-extract-all.png)
+
+- **Tip**: If you can’t find the ZIP you downloaded, click the download icon in Chrome and choose **Show in folder**.
+
+![Show in folder](assets/02-chrome-show-in-folder.png)
+
 - **Step 3**: Open Chrome and go to `chrome://extensions`
 - **Step 4**: Turn on **Developer mode** (top-right toggle)
 - **Step 5**: Click **Load unpacked**
 - **Step 6**: Select the extracted folder that contains `manifest.json`
+
+![chrome://extensions + Developer mode + Load unpacked](assets/04-load-unpacked.png)
 
 ## Use
 
