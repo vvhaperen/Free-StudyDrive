@@ -1,34 +1,38 @@
-# StudyDrive Downloader for free without premium
-# Installation Guide for StudyDrive Downloader Extension
+# Free StudyDrive Document Downloader (Chrome Extension)
 
-This Chrome extension allows you to download documents from StudyDrive.
+This extension adds a **Download Document** button directly on StudyDrive document pages, so you can download the document without needing a premium UI flow.
 
-## Installation Steps
+## Install (from GitHub)
 
-1. **Download the Extension**
+- **Step 1**: On this GitHub repo page, click **Code → Download ZIP**
+- **Step 2**: Extract the ZIP file (right-click → **Extract All…**)
+- **Step 3**: Open Chrome and go to `chrome://extensions`
+- **Step 4**: Turn on **Developer mode** (top-right toggle)
+- **Step 5**: Click **Load unpacked**
+- **Step 6**: Select the extracted folder that contains `manifest.json`
 
+## Use
 
-3. **Extract the ZIP Archive**
+- **Step 1**: Open a StudyDrive document page like:
+  - `https://www.studydrive.net/<language>/doc/...`
+- **Step 2**: Look for the green **Download Document** button on the page (top-right)
+- **Step 3**: Click it — the download should start automatically
 
+## Update the extension (when this repo changes)
 
-4. **Install the Extension**
+- Re-download the ZIP from GitHub and extract it (replace your old folder), **or**
+- If you pulled changes into the same folder, go to `chrome://extensions` and click **Reload** on the extension card.
 
-    - Open Google Chrome.
-    - Go to the extension settings by clicking the three-dot menu in the top-right corner of the browser, then selecting "More Tools" > "Extensions". or ![4](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/614fd76e-28d6-49e4-88c1-e4d956e4227a)
+## Troubleshooting
 
-    - Enable developer mode (top right).
-    - Click on "Load Unpacked" and select the folder where you extracted the extension.
-![5](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/05b39353-2380-4f89-8e96-706e6ff91d43)
-![7](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/bd577211-d9ff-4b37-adc8-1372fd8cd0a2)
+- **Button not showing**
+  - Make sure you’re on a URL that contains `/doc/`
+  - Go to `chrome://extensions` → **Reload** the extension → refresh the StudyDrive tab (try **Ctrl+F5**)
 
-5. **Using the Extension**
+- **It says “downloading” but nothing happens**
+  - Try Chrome Downloads (`Ctrl+J`) to see if it started/failed
+  - Reload the extension and try again
 
-    - Open any page on StudyDrive where a document is located.
-    - Click on the newly added download icon to download the document.
-![8](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/72cb1286-977a-44eb-99f9-9bd9b16cfd61)
+## Notes
 
-That's it! The extension is now installed and ready to use.
-
----
-
-**Note:** This extension has only been tested for use in Google Chrome.
+- **Browser support**: tested on **Google Chrome**
