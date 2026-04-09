@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "StudyDrive Downloader Extension",
+  "version": "1.1",
+  "description": "A extension to download documents from StudyDrive.",
+  "icons": {
+    "128": "icon.png"  
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.studydrive.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.studydrive.net/*/doc/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
