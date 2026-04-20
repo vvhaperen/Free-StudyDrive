@@ -16,7 +16,7 @@ This extension adds a **Download Document** button, you can download documents b
 
 ![Show in folder](assets/02b-show-in-folder.png)
 
-- **Step 4**: Extract the ZIP file (right-click → **Extract All…**)
+- **Step 4**: Extract the ZIP file (right-click → **Extract All…**) (On Mac its "Open")
 
 ![Extract All…](assets/03-extract-all.png)
 
