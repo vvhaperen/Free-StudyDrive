@@ -1,4 +1,3 @@
-
 (function () {
   const urlPattern = /^https:\/\/www\.studydrive\.net\/[a-z]{2}\/doc\//i;
   const BUTTON_ID = "studydrive-download-btn";
